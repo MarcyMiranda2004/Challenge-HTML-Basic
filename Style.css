@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(215, 196, 247);
+}
+
+#presentazione {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+/*Presentazione con immagine*/
+.presentazione h1 {
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    background-color: rgb(233, 130, 130);
+    border-style: solid;
+    border-color: brown;
+    border-radius: 0.5em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+}
+
+.presentazione img {
+    cursor: pointer;
+    border-style: solid;
+    border-color: brown;
+}
+
+/*Targhetta con il nome*/
+#nameplate {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: rgb(233, 130, 130);
+    border-style: solid;
+    border-color: brown;
+    border-radius: 1em;
+    width: 25em;
+    margin-top: 2em;
+}
+
+.presentazione p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.presentazione h3 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+/*Hobby*/
+#hobby{
+    margin-bottom: 7em;
+}
+
+.hobby h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 195, 195);
+    border-style: solid;
+    border-color: rgb(185, 131, 131);
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    width: 16.87em;
+    height: 2em;
+    margin-top: 4em;
+    margin-bottom: 0;
+}
+
+.hobby ul {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(236, 217, 217);
+    border-style: solid;
+    border-color: rgb(185, 131, 131);
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    width: 19em;
+    height: 10em;
+    margin-top: 0;
+    padding-top: 3.5%;
+    font-size: 1.2em;
+}
+
+/*Esperienze*/
+#experience  table, tr, td, th {
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: rgb(185, 131, 131);
+    width: 20em;
+    height: 3.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#experience th {
+    border-radius: 2em;
+}
+
+#experience {
+    font-size: 20px;
+    background-color: rgb(245, 195, 195);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.work{
+    font-size: 18;
+    background-color: rgb(236, 217, 217);
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*Contacts*/
+.contacts h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 195, 195);
+    border-style: solid;
+    border-color: rgb(185, 131, 131);
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    width: 16.87em;
+    height: 2em;
+    margin-top: 4em;
+    margin-bottom: 0;
+}
+
+.contacts ul {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(236, 217, 217);
+    border-style: solid;
+    border-color: rgb(185, 131, 131);
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    width: 19em;
+    height: 7em;
+    margin-top: 0;
+    padding-top: 3.5%;
+    font-size: 1.2em;
+}
