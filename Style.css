@@ -146,3 +146,14 @@ body {
     padding-top: 3.5%;
     font-size: 1.2em;
 }
+
+footer {
+    background-color: rgb(78, 3, 135);
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: auto;
+    position: relative;
+    width: 100vw;
+    left: -30px; 
+}
